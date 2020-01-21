@@ -89,7 +89,7 @@ def parser_to_csv(path, nfile):
 
                     csv_writer.writerow(row)
                 except AttributeError:
-                    #if row[0] is None:
+                    if row[0] is None:
                     file_comp = open("xml_corrupt.log", "w")
                     file_comp.write("EvtxCorupt")
                     file_comp.close()
