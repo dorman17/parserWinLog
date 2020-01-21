@@ -1,0 +1,13 @@
+1) Se non è installato, installare python2.7
+
+2) aggiungere alle variabili d'ambiente nel path " C:\Python27\Scripts;C:\Python27\;"
+
+3) installare il pacchetto python-evtx.
+
+	3.1) Aprire il terminale e digitare: 
+		pip install --upgrade pip
+		pip install python-evtx
+
+	opp
+
+	3.2) aprire il terminale e recarsi nella cartella "python-evtx". Digitare in comando: python setup.py install.
