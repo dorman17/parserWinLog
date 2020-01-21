@@ -1,0 +1,4 @@
+È possibile aggiungere file di log nella ricerca semplicemente aggiungendo al dizionario l'id del log con il relativo nome.
+per questa ricerca bisogna consultare il link dei log di windows dove è possibile visualizzare la relativa descrizione dell'event id
+quindi è possibile nel dizionario, con nome event_log_dict = {}, il relativo log con una semplice procedura chiave valore ad esempio
+( "4624": "Logon", ) quindi "idEvent": "descrizione log"
